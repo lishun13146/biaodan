@@ -1,0 +1,79 @@
+<html>
+
+      <head>
+  
+           <title>作业</title>
+
+       </head>
+
+        <body>
+
+             <table border="1" cellspacing="0" align="center">      <!--“table”启用表格。  “border”设置表格边框的粗细。  “cellspacing”表格的每个单元格相隔的距离   “align”表格在整个网页的位置 。“center”中间-->
+
+                  <caption>信息统计表</caption>                  <!--“caption”设置表格标签 。可理解为作文的标题。-->   
+
+                   <tr>                       <!--“tr”表示表格的一行-->
+ 
+                        <td>姓名：</td>                        <!--“td”表示一个单元格      “colspan”合并同一行中的单元格数量-->
+                        <td colspan="2"><input type="text" name="username"></td>
+
+                   </tr>
+                   <tr>
+
+                        <td>年龄：</td>
+                        <td colspan="2"><input type="password" name="passwd"></td>                  <!--“<input type="password" name="passwd">”一个可输入文字的文本框-->
+
+                    </tr>
+                    <tr>
+ 
+                        <td>性别：</td>
+                        <td colspan="2"><input type="radio" name="sex" value="1">男                 <!--“<input type="radio" name="sex" value>”    设置一个性别的单选框  “sex”性别 -->
+                                                    <input type="radio" name="sex" value="0">女</td>
+
+                    </tr>
+                    <tr>
+
+                         <td>爱好：</td>
+                         <td colspan="2"><input type="checkbox" name="hobby" value="1">旅游<br>               <!--“<input type="checkbox" name="hobby" value>”设置一个复选框  可多选-->
+                                                      <input type="checkbox" name="hobby" value="2">登山<br>              <!--“br” 换一行显示之后的内容 。如果不加左边的选项就会叠成一行-->
+                                                      <input type="checkbox" name="hobby" value="3">健身<br>
+                                                      <input type="checkbox" name="hobby" value="4">上网<br>
+                                                      <input type="checkbox" name="hobby" value="5">游泳</td>
+                
+                     </tr>
+                     <tr>
+
+                         <td>学历：</td>
+                         <td>
+                                <select>               <!--创建一个折叠框
+			<option value="">--请选择--</option>         <!--“<option value>”设置折叠框的可选项名字  -->
+			<option value="1">小学</option>    
+			<option value="2">初中</option>    
+			<option value="3">高中</option>    
+			<option value="4">大学</option>
+			<option value="5">硕士及以上</option>
+		</select>
+                          </td>
+                       
+                    </tr>
+                    <tr>
+       
+                          <td>自我介绍：</td>
+                          <td colspan="2">自我介绍：<br><input type="text" width:1><br><br><br><br></td>          <!--“width”设置某个东西的宽度。这里用来缩小文本框的长度  仅仅为了美观-->
+                          
+       
+                    </tr>
+                    <tr>
+
+                            <td colspan="3" align=center>
+                                                      <input type="submit" value="提交">              <!--“<input type="submit">”创建一个提交按钮   “submit”是提交的意思    “value”设置这个按钮在网页上显示的名字-->
+                                                      <input type="reset" value="重置">                  <!--“reset” 英语单词：重新设置-->
+                            </td>
+
+                     </tr>
+                   
+                </table>
+          </body>
+</html>
+                  
+                        
